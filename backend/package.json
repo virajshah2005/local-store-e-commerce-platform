@@ -8,7 +8,10 @@
     "dev": "nodemon server.js",
     "setup-db": "node database/setup.js",
     "reset-db": "node database/reset.js",
-    "init-db": "node database/setup.js"
+    "init-db": "node database/setup.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "test:unit": "echo \"No unit tests specified\" && exit 0",
+    "test:integration": "echo \"No integration tests specified\" && exit 0"
   },
   "dependencies": {
     "express": "^4.18.2",
